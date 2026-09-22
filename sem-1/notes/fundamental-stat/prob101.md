@@ -7,8 +7,7 @@ Let $\Omega$ be the sample space (all possible outcomes) and $A$ be an event wit
 
 1. **Non-negativity**: $P(A) \ge 0$ for any event $A$.
 2. **Normalization**: $P(\Omega) = 1$ (the probability of the entire sample space is certain).
-3. **Additivity**: For any mutually exclusive (disjoint) events $A$ and $B$:
-   $$ P(A \cup B) = P(A) + P(B) $$
+3. **Additivity**: For any mutually exclusive (disjoint) events $A$ and $B$:  $$P(A \cup B) = P(A) + P(B)$$
 
 ---
 
@@ -18,7 +17,7 @@ Conditional probability updates our beliefs about an event $A$ given that anothe
 $$ P(A | B) = \frac{P(A \cap B)}{P(B)} \quad \text{where } P(B) > 0 $$
 
 ### Statistical Independence:
-Two random events $A$ and $B$ are completely independent if and only if knowing $B$ happened gives zero information about $A$:
+Two random events $A$ and $B$ are completely independent if and only if knowing $B$ happened gives zero information about $A$: 
 $$ P(A | B) = P(A) \iff P(A \cap B) = P(A) \cdot P(B) $$
 
 ---
@@ -32,7 +31,7 @@ Where:
 * $P(A|B)$ is the **Posterior** probability.
 * $P(B|A)$ is the **Likelihood** of seeing the evidence given the hypothesis.
 * $P(A)$ is the **Prior** probability of the hypothesis.
-* $P(B)$ is the **Marginal** probability of the evidence, often expanded using the Law of Total Probability:
+* $P(B)$ is the **Marginal** probability of the evidence, often expanded using the Law of Total Probability:    
   $$ P(B) = \sum_{i} P(B | A_i) \cdot P(A_i) $$
 
 ---
