@@ -18,7 +18,7 @@ $$ P(A | B) = \frac{P(A \cap B)}{P(B)} \quad \text{where } P(B) > 0 $$
 
 ### Statistical Independence:
 Two random events $A$ and $B$ are completely independent if and only if knowing $B$ happened gives zero information about $A$: 
-$$ P(A | B) = P(A) \iff P(A \cap B) = P(A) \cdot P(B) $$
+$ P(A | B) = P(A) \iff P(A \cap B) = P(A) \cdot P(B) $
 
 ---
 
@@ -31,7 +31,8 @@ Where:
 * $P(A|B)$ is the **Posterior** probability.
 * $P(B|A)$ is the **Likelihood** of seeing the evidence given the hypothesis.
 * $P(A)$ is the **Prior** probability of the hypothesis.
-* $P(B)$ is the **Marginal** probability of the evidence, often expanded using the Law of Total Probability:    
+* $P(B)$ is the **Marginal** probability of the evidence, often expanded using the Law of Total Probability:  
+
   $$ P(B) = \sum_{i} P(B | A_i) \cdot P(A_i) $$
 
 ---
